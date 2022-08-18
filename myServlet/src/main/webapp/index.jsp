@@ -41,7 +41,7 @@
 </style>
 <body>
 <h4 class="h">Personal Data</h4>
-<form class="myForm" action="http://localhost:8080/myServlet_war_exploded/servletTwo" method="get">
+<form class="myForm" action="http://localhost:8080/myServlet_war_exploded/servletTwo" method="post">
     <label class="l" for="lastname">Lastname* </label>
     <br>
     <input id="lastname" class="lastname" type="text" placeholder="Lastname" name="lastname" required>
